@@ -1,0 +1,123 @@
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-color:rgb(240,240,240) ;
+    border-bottom-style:solid   ;
+    z-index: 100  ;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    width: 180px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin-right: 24px;
+    flex-shrink: 0; 
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px ;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.menu{
+    height:24px;
+    margin-left:24px;
+    margin-right: 20px;
+}
+.logo{
+    height: 20px;
+}
+.search-icon{
+    height:40px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border-color: rgb(192,192,192);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -4px;
+    margin-right: 10px;
+    
+    
+    
+}
+.mic{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(248,248,248);
+    
+}
+.imagemic{
+    height :24px;
+    margin-top: 4px ;
+}
+.search-bar{
+    height: 36px;
+    flex: 1;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius:2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0; 
+}
+.search-bar::placeholder{
+    font-family: roboto,arial;
+    font-size: 16px;
+}
+.search-iconimage{
+    height: 25px;
+    margin-top: 4px ;
+    
+}
+.upload{
+    height: 24px;
+}
+.youtubeapps{
+    height: 24px;
+}
+.notifications{
+    height: 24px;
+}
+.notification-icon-container{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(195, 14, 14);
+    color: white;
+    font-family: roboto,arial;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right:6px ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+.my-channel{
+        height: 32px ;
+    border-radius: 16px;
+   
+}
